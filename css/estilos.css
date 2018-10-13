@@ -1,0 +1,117 @@
+/* CSS Document */
+.cartas
+{
+width:100%;
+height:100%;
+padding-bottom:2px;
+padding-top:5px;
+padding-right:4px;
+border-spacing: 2px;
+border-collapse: separate;
+table-layout: fixed;
+font-size:25px;
+text-align:center;
+
+-webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -o-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+.titulo
+{
+font-size:20px;
+}
+#tablero
+{}
+.pantallaprincipal
+{
+    background-color:#00bacc;
+    font-size: 22px;
+}
+.cabecera
+{
+border-spacing: 5px;
+}
+
+.noseleccionada
+{
+background-color:#3399FF;
+
+}
+.fallada
+{
+background-color:#3399FF;
+}
+.seleccionada
+{
+background-color:#CC0000;
+}
+.seleccionada .textocarta
+{
+background-color:#CC0000;
+visibility: visible
+}
+.acertada .textocarta
+{
+background-color:#00FF00;
+visibility: visible
+}
+.acertada 
+{
+    background-color:#00FF00;
+}
+.textocarta
+{
+     background-color:#00FF00;
+    visibility: hidden
+}
+.puntuacion
+{
+    background-color: #3399FF;
+    display: inline;
+    padding: 1%;
+    z-index:5
+}
+.cc
+{
+    padding:1%;
+    display: inline;
+    font-size:100%;
+    background-color: #E6E6E6;
+}
+.home
+{
+  padding:1%;
+    display: inline;
+    font-size:100%;  
+    background-color:#1188ee;
+
+}
+.imagenhome
+{
+    vertical-align: text-top;
+}
+.home:hover
+{
+  padding:1%;
+    display: inline;
+    font-size:100%;  
+    background-color: #3399FF;
+    
+}
+.indicaciones
+{
+     display: inline;
+    text-align:center;
+    margin-bottom:1%;
+    padding: 1%;
+     background-color: #3399FF;
+   
+}
+#filacabecera
+{
+    position:relative;
+   
+}

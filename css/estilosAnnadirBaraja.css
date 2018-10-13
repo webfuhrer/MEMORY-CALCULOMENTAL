@@ -1,0 +1,38 @@
+.icono_anadir
+{
+height: 20px;
+vertical-align: text-bottom;
+}
+#formulario
+{
+    font-size: 22px;
+
+}
+.campoid
+{
+    width: 5%;
+    background:#fad300;
+    font-size:20px;
+}
+#instrucciones, #cabeceraDatos, .indicaciones_alumno
+{width: 80%;
+position: relative;
+
+left: 15%;
+
+}
+
+#parejas
+{
+
+    width: 80%;
+position: relative;
+left: 15%;
+}
+.botonGrabar
+{
+width: 80%;
+position: relative;
+padding-top: 5%;
+left: 50%;
+}

@@ -1,0 +1,29 @@
+TABLAS:
+t_datosbaraja (IMPRESCINDIBLE)
+(Una baraja tiene un id y las parejas):
+id _partida| pareja1 | pareja2
+CREATE TABLE t_datosbaraja
+(
+id_partida int,
+pareja1 varchar(255),
+pareja2 varchar(255)
+);
+INSERT INTO t_datosbaraja VALUES(1, "España", "Madrid");
+INSERT INTO t_datosbaraja VALUES(1, "Inglaterra", "Londres");
+
+
+
+t_datosgenerales
+id_partida | creador | asignatura
+CREATE TABLE t_datosgenerales
+(
+id_partida int,
+creador varchar(255),
+asignatura varchar(255)
+);
+INSERT INTO t_datosgenerales VALUES(1, creador, asignatura);
+t_datosPartida
+(Una partida tiene un id baraja e id_jugador)
+id_jugador | id_baraja
+t_datosJugador
+id_jugador | nickname

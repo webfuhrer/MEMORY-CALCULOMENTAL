@@ -1,0 +1,38 @@
+/* CSS Document */
+.cartas
+{
+width:100%;
+height:100%;
+padding-bottom:4px;
+padding-top:10px;
+padding-right:4px;
+border-spacing: 10px;
+border-collapse: separate;
+table-layout: fixed;
+font-size:56px;
+text-align:center;
+}
+#tablero
+{}
+.cabecera
+{
+border-spacing: 10px;
+}
+
+.noseleccionada
+{
+background-color:#3399FF;
+
+}
+.fallada
+{
+background-color:#3399FF;
+}
+.seleccionada
+{
+background-color:#CC0000;
+}
+.acertada
+{
+background-color:#00FF00;
+}

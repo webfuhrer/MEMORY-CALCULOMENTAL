@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Creación de baraja</title>
+<meta name="description" content="Creación de baraja para memory">
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/estilosAnnadirBaraja.css"> 
+<script language="Javascript" src="javascript/jquery-1.11.1.js"></script>
+<script language="Javascript" src="javascript/funcionesCrearBaraja.js"></script>
+
+</head>
+<body>
+<form id="formulario" action="funcionesPHP/grabarBaraja.php" accept-charset="UTF-8" >
+<div id="cabeceraDatos">
+Id: <input type="number" name="id_baraja" disabled> 
+Creador: <input type="text" name="nombre_creador" > 
+Asignatura: <input type="text" name="nombre_creador" > 
+</div>
+<div id="parejas">
+	Pareja 1: <input type="text" name="pareja1-1" > 
+	Pareja 2: <input type="text" name="pareja2-1" > 
+	<img src="imagenes/annadir.png" id="imagen_annadir" class="icono_anadir" alt="Pulse para a&ntilde;adir parejas de cartas" title="Pulsar para a&ntilde;adir otra pareja de cartas">
+</div>
+<input type="hidden" name="numero_parejas" id="num_parejas" value="cosa">
+<div class="botonGrabar" ><button id="btnGrabar" class="boton">Grabar</button></div>
+
+</div>
+</form>
+</body>
+</html>
